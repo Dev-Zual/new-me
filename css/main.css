@@ -196,3 +196,53 @@ header {
     height: 300px;
     margin-left: 64px;
 }
+footer {
+    background: #151414;
+}
+.footer-area {
+    display: flex;
+    padding: 100px 0px;
+    column-gap: 60px;
+    justify-content: space-around;
+}
+
+.footer-left {
+    color: #fff;
+  width: 50%;
+}
+
+.footer-right {
+    color: #fff;
+  width: 50%;
+  margin-left: 200px;
+}
+.footer-left p {
+    margin: 20px 0px;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.icon img {
+    margin-right: 15px;
+}
+
+.footer-right h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-right input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #fff;
+    font-size: 1.125rem;
+    letter-spacing: 2px;
+    width: 55%;
+    background: transparent;
+  
+}

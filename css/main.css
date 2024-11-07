@@ -15,21 +15,25 @@ p {
   padding: 0px;
   margin: 0px;
 }
-.btn-primary{
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.btn-primary {
   padding: 20px;
   border: none;
   border-radius: 5px;
-  color: #005FAC;
+  color: #005fac;
   font-weight: 600;
   font-size: 1.25rem;
   cursor: pointer;
 }
-.btn-secondery{
-    padding: 20px;
+.btn-secondery {
+  padding: 20px;
   border: none;
   border-radius: 5px;
   color: #fff;
-  background: #005FAC;
+  background: #005fac;
   font-weight: 600;
   font-size: 1.25rem;
   cursor: pointer;
@@ -78,10 +82,57 @@ header {
   font-size: 1rem;
   line-height: 26px;
   margin: 20px 0px;
-  padding-left: 70px
+  padding-left: 70px;
 }
 
 .banner-area {
   margin-right: 100px;
   padding: 20px;
+}
+.failure-are {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 20px;
+  justify-content: space-around;
+  margin: 100px 0px;
+}
+.failure-left {
+  width: 50%;
+}
+
+.failure-left img {
+  width: 70%;
+}
+.failure-right {
+  width: 50%;
+}
+.failure-right h2 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-right: 150px;
+}
+
+.failure-right p {
+  margin: 23px 0px;
+  font-size: 1rem;
+  color: #444343;
+  font-weight: 400;
+  line-height: 26px;
+}
+.list ul {
+  padding: 0px;
+}
+
+.list ul li {
+  list-style: none;
+  margin: 10px 0px;
+  color: #444343;
+  font-size: 1rem;
+  font-weight: 400;
+ 
+}
+.list ul li i {
+  color: #16D887;
+  margin-right: 12px
 }
